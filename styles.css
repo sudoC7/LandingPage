@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+
+/*========================== HEADER ===============================*/
+
+/* background: radial-gradiant(rgb(139,195,245), #1294b8) */
+#header {
+    background: radial-gradient(rgb(207, 224, 238), #1294b8);
+}
+
+#h_nav_icon-header {
+    display: flex; 
+    justify-content: space-around;
+    gap: 20px;
+    color: #fff;
+}
+
+#h_nav_icon-header #header-nav {
+    display: flex;
+    align-self: center;
+}
+
+/*======== NAV =======*/
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    padding: 5px;
+    padding: 0 15px;
+}
+
+li a {
+    transition: 0.5s;
+}
+
+li a:hover {
+    transform: translateY(-5px);
+}
+
+#ulia-header li a { 
+    text-decoration: none;
+    color: #fff;
+}
+ 
+/*====================*/
+
+/*========ICON========*/
+
+li a i { 
+    text-decoration: none;
+    color: #fff;
+}
+
+#header-icon {
+    display: flex;
+    align-self: center;
+}
+
+#header-icon i {
+    padding: 0 12px;
+}
+
+/*====================*/
+
+#hp-header {
+    padding: 30px;
+}
+
+#img-header {
+    width: 600px; 
+}
+
+#hpinlaImg-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+#hpinla-header > * {
+    margin-bottom: 25px;
+}
+
+#hpinla-header {
+    align-self: center;
+    width: 550px;
+    /* margin-bottom: 100px; */
+}
+
+#hpinla-header h2 {
+    font-size: 50px;
+    width: 400px;
+    line-height: 60px;
+}
+
+#hpinla-header p {
+    width: 400px;
+}
+
+#ss-header {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    position: relative;
+    width: 400px;
+}
+
+#email-form{
+    width: 98%;
+    border-radius: 50px;
+    opacity: 0.5;
+    border: none;
+    height: 40px;
+}
+
+#submit-header {
+    display: flex;
+    position: absolute;
+    right: 0;
+    border-radius: 50px;
+    border: none;
+    align-items: center;
+    height: 88%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
