@@ -11,6 +11,8 @@
 /* background: radial-gradiant(rgb(139,195,245), #1294b8) */
 #header {
     background: radial-gradient(rgb(207, 224, 238), #1294b8);
+    width: auto;
+    height: 700px;
 }
 
 #h_nav_icon-header {
@@ -38,12 +40,12 @@ nav ul li {
     padding: 0 15px;
 }
 
-li a {
+#ulia-header li a {
     transition: 0.5s;
 }
 
-li a:hover {
-    transform: translateY(-5px);
+#ulia-header li a:hover {
+    color: #A0A0A0;
 }
 
 #ulia-header li a { 
@@ -55,19 +57,36 @@ li a:hover {
 
 /*========ICON========*/
 
+#header-icon ul {
+    display: flex;
+}
+
 li a i { 
+    padding: 0 12px;
     text-decoration: none;
     color: #fff;
 }
 
 #header-icon {
     display: flex;
+    flex-direction: row;
     align-self: center;
 }
 
-#header-icon i {
-    padding: 0 12px;
+#header-icon #icoli-header li {
+    display: flex;
+    align-self: center;
+    flex-direction: row;
 }
+
+li a i {
+    transition: 0.2s;
+}
+
+li a i:hover {
+    color: #A0A0A0;
+}
+
 
 /*====================*/
 
@@ -86,9 +105,9 @@ li a i {
     margin-top: 70px;
 }
 
-#hpinla-header > * {
+/* #hpinla-header > * {
     margin-bottom: 25px;
-}
+} */
 
 #hpinla-header {
     align-self: center;
@@ -97,12 +116,14 @@ li a i {
 }
 
 #hpinla-header h2 {
+    margin-bottom: 25px;
     font-size: 50px;
     width: 400px;
     line-height: 60px;
 }
 
 #hpinla-header p {
+    margin-bottom: 25px;
     width: 400px;
 }
 
@@ -119,23 +140,46 @@ li a i {
     border-radius: 50px;
     opacity: 0.5;
     border: none;
-    height: 40px;
+    height: 43px; /* 43PX*/
 }
 
 #submit-header {
     display: flex;
     position: absolute;
-    right: 0;
+    right: 8px;
     border-radius: 50px;
     border: none;
     align-items: center;
     height: 88%;
+    width: 100px;
+    background:#0096BD;
+    color: #fff;
+    text-align: center;
 }
 
 
+/*==========BETWEEN==========*/
 
+#header-between {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
 
+#childHb {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
 
+#childHb h2 {
+    text-align: center;
+}
+
+#childHb p {
+    text-align: center;
+    color:#A0A0A0;
+}
 
 
 
