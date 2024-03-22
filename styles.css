@@ -165,7 +165,7 @@ li a i:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 45px;
+    margin: 20px;
 }
 
 /* Texte qui se trouve AU-DESSUS des trois cartes blueus */
@@ -174,8 +174,8 @@ li a i:hover {
     display: flex;
     flex-direction: column;
     width: 550px;
-    margin-top: 40px;
-    /* justify-content: center; */
+    margin-top: 50px;
+    justify-content: center; 
 }
 
 .childHb h2 {
@@ -195,8 +195,8 @@ li a i:hover {
     display: flex;
     flex-direction: column;
     width: 550px;
-    margin-top: 30px;
-    /* justify-content: center; */
+    margin: 40px 0 40px 0;
+    
 }
 
 .childHb2 h2 {
@@ -219,7 +219,8 @@ li a i:hover {
     display: flex;
     flex-wrap: wrap;
     /* flex-direction: row; */
-    min-height: 100vh;
+    /* min-height: 10vh; */
+    margin: 50px;
     justify-content: center;
     align-items: center;
     gap: 20px;
@@ -243,6 +244,10 @@ li a i:hover {
     transition: 0.5s;
 }
 
+.card:hover {
+    transform: translateY(-20px)
+}
+
 .fa-solid {
     color: #fff;
     font-size: 52px;
@@ -260,4 +265,13 @@ li a i:hover {
 }
 
 
+/*=========== VOID ============*/
 
+#voidHP {
+display: flex;
+justify-content: center;
+width: auto;
+margin: 70px 0 0 0;
+background: whitesmoke;
+height: 500px;
+}
