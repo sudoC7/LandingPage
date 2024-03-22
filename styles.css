@@ -162,28 +162,102 @@ li a i:hover {
 
 #header-between {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin: 20px;
+    align-items: center;
+    margin-top: 45px;
 }
 
-#childHb {
+/* Texte qui se trouve AU-DESSUS des trois cartes blueus */
+
+.childHb {
     display: flex;
     flex-direction: column;
+    width: 550px;
+    margin-top: 40px;
     /* justify-content: center; */
 }
 
-#childHb h2 {
+.childHb h2 {
     text-align: center;
+    font-weight: 500;
 }
 
-#childHb p {
+.childHb p {
     text-align: center;
     color:#A0A0A0;
+    width: 550px;
+}
+
+/* Texte qui se trouve EN-DESSOUS des trois cartes blueus */
+
+.childHb2 {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    margin-top: 30px;
+    /* justify-content: center; */
+}
+
+.childHb2 h2 {
+    text-align: center;
+    font-weight: 500;
+}
+
+.childHb2 p {
+    text-align: center;
+    color:#A0A0A0;
+    width: 550px;
 }
 
 
 
 
+/* The container cards */
+
+#containerCards {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    margin: 20px;
+    background: #fff;
+    width: 450px;
+    height: 430px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+    background: radial-gradient(rgb(195, 212, 226), #1294b8);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transition: 0.5s;
+}
+
+.fa-solid {
+    color: #fff;
+    font-size: 52px;
+    margin-bottom: 35px;
+}
+.card h2 {
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.card p {
+    color: #fff;
+    text-align: center;
+    width: 400px;
+}
 
 
 
