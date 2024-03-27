@@ -278,6 +278,9 @@ height: 500px;
 
 
 /*=========== SECTION THREE ============*/
+#sectionThree {
+    margin: 90px 0 90px 0;
+}
 
 #firstDivS3 {
     display: flex;
@@ -297,30 +300,13 @@ height: 500px;
     font-weight: 500;
 }
 
-#secondDivS3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.divS3div {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.divS3div p:last-child {
-    font-size: 12px;
-    color: #BCBDBC;
-}
-
-
+/* Les photos et les paragraphes */
 
 #thirdSectionImg {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+
 }
 
 .imgppS3 {
@@ -333,12 +319,61 @@ height: 500px;
     font-size: 12px;
 }
 
+.divS3div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 0 20px 0;
+}
+
+.divS3div p {
+    font-size: 20px;
+    color: #000;
+}
+
+.divS3div p:last-child {
+    font-size: 12px;
+    color: #BCBDBC;
+}
+
+                                               
 .frameImgS3 {
-    /* width: 200px; */
+    width: 200px;
 }
 
 .imgS3 {
     width: 200px;
     border-radius: 50%;
 }
+
+.fullNaP {
+    text-align: center;
+}
+
+/*=========== SECTION FOUR ============*/
+
+#sectionFour {
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(./img/parallax.png);
+}
+
+
+/*=========== SECTION FIVE ============*/
+
+
+
+
+
+
+
+
+
+
+
+
 
