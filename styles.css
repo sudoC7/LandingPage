@@ -359,13 +359,75 @@ height: 500px;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    color: #00000012;
     background-image: url(./img/parallax.png);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+#sectionFour div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+#sectionFour div button {
+    background-color:  rgba(255, 255, 255, 0);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*=========== SECTION FIVE ============*/
 
 
+#sectionFive {
+    height: 700px;
+    background: #1294b8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#firstS5 h2, p{
+    text-align: center;
+}
+#firstS5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+.divImgS5 {
+    width: 300px;
+}
+
+#hpaimgS5 {
+    display: flex;
+    flex-direction: row;
+}
 
 
 
@@ -377,3 +439,15 @@ height: 500px;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+/*=========== SECTION SIX ============*/
